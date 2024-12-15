@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Awesome Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+    }
+    header {
+      background-color: #008cba;
+      color: white;
+      padding: 20px 0;
+    }
+    header img {
+      width: 100px; /* Adjust size as needed */
+      border-radius: 50%; /* Makes it circular if your image is square */
+    }
+    main {
+      padding: 20px;
+    }
+    button {
+      background-color: #008cba;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #005f73;
+    }
+    footer {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="My Logo">
+    <h1>Welcome to My Website!</h1>
+  </header>
+  <main>
+    <p>Hello! This is a simple website created with HTML, CSS, and JavaScript.</p>
+    <button onclick="sayHello()">Click Me!</button>
+  </main>
+  <footer>
+    <p>&copy; 2024 My Awesome Website</p>
+  </footer>
+  <script>
+    function sayHello() {
+      alert('Hello! Thanks for visiting my website!');
+    }
+  </script>
+</body>
+</html>
